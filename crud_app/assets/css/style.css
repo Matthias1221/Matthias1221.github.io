@@ -12,6 +12,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+ 
 }
 
 a {
@@ -22,8 +23,11 @@ a {
 .container{
     max-width: 1024px;
     margin: auto;
+   
 }
-
+.box-nav{
+    background-color: #a3c7eb;
+}
 .nav-brand{
     font-size: 1.5em;
     font-weight: bold;
@@ -67,7 +71,7 @@ a {
 }
 
 #header nav{
-    background-color: #06d6a0;
+    background-color: #d65206;
     padding: 1em 0;
     width: 100%;
 }
@@ -102,10 +106,14 @@ table{
     padding: .3em 1em;
     font-size: 1.1em;
     margin: 0 .2em;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .table tr:hover{
-    background-color:#06d6a0 ;
+    background-color:#bc0707 ;
 }
 
 .table tr:hover td > a{
@@ -118,7 +126,7 @@ table{
     border-color: #32383e;
 }
 
-@media only screen and (max-width: 1024px){
+/*@media only screen and (max-width: 1024px){
     table, thead, tbody, th, td, tr{
         display: block;
     }
@@ -136,7 +144,7 @@ table{
         position: relative;
     }
 
-}
+}*/
 
 /*  add user & update user template */
 .form-title{
@@ -195,6 +203,10 @@ table{
     text-align: center;
     -webkit-transition: all 250ms ease;
     transition: all 250ms ease;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .radio input[type='radio']:checked + .radio-label:before{
